@@ -77,7 +77,7 @@
 .container-two{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 550px 450px 650px;
+    grid-template-rows: 550px 450px 750px;
     grid-template-areas: 
     "tp tp tp"
     "mdl mdl mdl"
@@ -109,6 +109,8 @@
     display: flex;
     flex-direction: row;
     background-color: rgb(47, 143, 119);
+    padding-left: 50px;
+    padding-top: 75px;
 }
 
 #cata-one{
@@ -170,4 +172,34 @@
     background-color: mintcream;
     margin-left: 10px;
 
+}
+
+.cata-seven{
+    width: 555px;
+    height: 600px;
+    background-color: navajowhite;
+    margin:25px;
+}
+
+.cata-eight{
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    height: 600px;
+    background-color: navajowhite;
+    margin:25px;
+    margin-left: 5px;
+}
+
+.nest-flex-three{
+    width: 100%;
+    height: 287px;
+    background-color: navy;
+    margin-bottom: 25px;
+}
+
+.nest-flex-four{
+    width: 100%;
+    height: 287px;
+    background-color: navy;
 }
