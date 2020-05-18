@@ -12,3 +12,8 @@
     font-size: 50px;
     padding-top: 75px;
 }
+
+.blog-image{
+    max-width: 100%;
+    height: auto;
+}
