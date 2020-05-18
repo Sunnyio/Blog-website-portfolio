@@ -1,5 +1,6 @@
 @import url("homepage-layout.css");
+@import url("homepage-style.css");
 body{
     margin: 0;
-    background-color: #f1f1f1;/*#fff can we more better*/
+    background-color:#f1f1f1;/*#fff can we more better*/
 }
