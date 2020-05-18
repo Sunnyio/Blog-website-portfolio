@@ -99,6 +99,9 @@
     display: flex;
     flex-direction: row;
     background-color: pink;
+    flex-direction: row;
+    padding-top: 85px;
+    padding-left: 75px;
 }
 
 .flexbox-five{
@@ -144,4 +147,27 @@
     width: 100%;
     height: 225px;
     background-color: rgb(127, 202, 133);
+}
+
+.cata-four{
+    width: 550px;
+    height: 350px;
+    background-color: mintcream;
+    margin-right: 20px;
+}
+
+.cata-five{
+    width: 250px;
+    height: 350px;
+    background-color: mintcream;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.cata-six{
+    width: 250px;
+    height: 350px;
+    background-color: mintcream;
+    margin-left: 10px;
+
 }
