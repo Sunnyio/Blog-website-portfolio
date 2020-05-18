@@ -77,5 +77,30 @@
 .container-two{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 450px 250px 550px;
+    grid-template-rows: 450px 350px 550px;
+    grid-template-areas: 
+    "tp tp tp"
+    "mdl mdl mdl"
+    "btm btm btm";
+}
+.flexbox-three{
+    grid-area: tp;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(68, 13, 54);
+    
+}
+
+.flexbox-four{
+    grid-area: mdl;
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+}
+
+.flexbox-five{
+    grid-area: btm;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(47, 143, 119);
 }
