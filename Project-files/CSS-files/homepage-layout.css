@@ -42,3 +42,10 @@
     background-color: rgb(30, 0, 100);   
 }
 
+.recent-post{
+    
+    width: 97%;
+    height: 550px;
+    margin: 15px;
+    background-color: darkgrey;
+}
