@@ -59,3 +59,17 @@
     background-color: darkgrey;
     margin: 20px;
 }
+
+#PopPost{
+    width: 90%;
+    height: 450px;
+    background-color: darkgrey;
+    margin: 20px;
+}
+
+#follow-me{
+    width: 90%;
+    height: 120px;
+    background-color: darkgrey;
+    margin: 20px;
+}
