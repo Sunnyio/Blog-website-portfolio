@@ -77,7 +77,11 @@
 .container-two{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+<<<<<<< HEAD
     grid-template-rows: 450px 350px 550px;
+=======
+    grid-template-rows: 450px 250px 550px;
+>>>>>>> b9d17369dcd0affdc6e8566e6dc617e8383aefca
     grid-template-areas: 
     "tp tp tp"
     "mdl mdl mdl"
