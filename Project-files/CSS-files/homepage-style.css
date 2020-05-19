@@ -1,4 +1,37 @@
 .jumbotran{
     font-family: Oswald;
-    font-size: 48px;
+    
+   
 }
+
+.welcome-m{
+    word-spacing: 0.1rem;
+}
+
+.sun-wld{
+    word-spacing: 0.01rem;
+    color: white;
+    background-color: black;
+}
+
+.logo{
+    text-align: left;
+    margin-left: 25px;
+    font-size: 36px;
+    width: 120px;
+    color:black;
+    height: 43px;
+    text-align: center;
+    font-family: comfortaa, monospace;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/* navigation start from here*/
+
+
+  /*navigation ens here*/
