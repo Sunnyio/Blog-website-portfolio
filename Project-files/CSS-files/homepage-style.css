@@ -30,6 +30,53 @@ a{
     text-decoration: none;
 }
 
+.text-on-img{
+    z-index: 2;
+    position: absolute;
+    color: white;
+    width: auto;
+    height: auto;
+    margin-top: 300px;
+    margin-left: 25px;
+    font-family: oswald, monospace, Arial, Helvetica, sans-serif;
+}
+
+.text-on-img-one{
+    font-size: 36px;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    text-shadow: 0 0 1px #000;
+}
+
+.text-on-img-two{
+    font-size: 64px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    text-shadow: 0 0 2px #000;
+    }
+
+.btn-on-img{
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    letter-spacing: .1rem;
+    transform: scaleY(1.1);
+    background-color:#fff;
+    opacity: 60%;
+    border: none;
+    font-weight: 590;
+    width: 75px;
+    color: black;
+    scroll-behavior: smooth;
+}
+
+a .btn-on-img:hover{
+    background-color: white;
+    opacity: 80%;
+}
+
 
 /* navigation start from here*/
 

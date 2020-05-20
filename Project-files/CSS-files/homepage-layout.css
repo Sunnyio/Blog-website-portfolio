@@ -18,11 +18,11 @@
 .blog-image{
     max-width: 100%;
     height: auto;
+    transform: scaleX(-1);
+    position: relative;
+    box-shadow: 0 0 5px black;
 }
 
-.bl-image{
-    transform: scaleX(-1);
-}
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

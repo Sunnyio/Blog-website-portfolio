@@ -1,5 +1,8 @@
 @import url("homepage-layout.css");
 @import url("homepage-style.css");
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     background-color:#fff;/*#fff can we more better*/
