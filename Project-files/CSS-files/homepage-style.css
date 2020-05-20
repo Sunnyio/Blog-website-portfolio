@@ -77,6 +77,64 @@ a .btn-on-img:hover{
     opacity: 80%;
 }
 
+#myname-img{
+    background-image: url(../Images/iheb-ab-OBufvGMaBaQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+}
+
+#myname-text{
+    padding: 15px;
+    padding-top: 5px;
+    font-family: raleway,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#pop-post-t{
+   
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    height: 68px;
+    border-bottom:1px dotted lightgray;
+    padding-top: 15px;
+    font-family: open sans;
+}
+
+.thumbnail{
+    width: 50px;
+    height: 50px;
+    background-image: url(../Images/fashion-art-coffee-macbook-pro-57690.jpg);
+    background-size: cover;
+    float: left;
+    margin: 10px;
+    margin-top: 0px;
+
+}
+
+.thumbnail-t{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.thumbnail-d{
+    font-weight: 200;
+    font-size: 14px;
+}
+
 
 /* navigation start from here*/
 
