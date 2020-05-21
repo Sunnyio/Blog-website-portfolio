@@ -28,6 +28,7 @@
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .text-on-img{
@@ -93,8 +94,7 @@ a .btn-on-img:hover{
     line-height: 1.5;
 }
 
-#pop-post-t{
-   
+.pop-post-t{
     height: 40px;
     background-color: black;
     color: white;
@@ -112,6 +112,10 @@ li{
     border-bottom:1px dotted lightgray;
     padding-top: 15px;
     font-family: open sans;
+}
+
+li:hover{
+    background-color: lightgrey;
 }
 
 .thumbnail{
@@ -135,6 +139,94 @@ li{
     font-size: 14px;
 }
 
+i:hover{
+    color: rgb(128, 128, 128);
+}
+
+.rct-post-t{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.rct-post-img{
+    width: 90%;
+    height: 350px;
+    background-image: url(../Images/excercise.jpg);
+    background-size: cover;
+    background-position: top;
+    margin-left: 38px;
+}
+
+.blog-text{
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: open sans;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.recent{
+    width: 65px;
+    background-color: rgb(204, 3, 3);
+    color: white;
+    font-family: Oswald,sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.recent:hover{
+   opacity: 70%;
+
+}
+
+.like{
+    margin: 0px;
+    border:1px solid lightgray;
+    font-size: 16px;
+    margin-left: 40px;
+    background-color: white;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+.like:hover{
+    background-color: lightgray;
+}
+.fa-thumbs-up{
+    margin-right: 5px;
+ 
+}
+.reply{
+    float: right;
+    border:none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.reply:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.rep-no{
+    background-color: white; 
+    color: black;
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 8px;
+    
+}
 
 /* navigation start from here*/
 
