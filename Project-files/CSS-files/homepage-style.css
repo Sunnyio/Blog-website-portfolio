@@ -1,3 +1,12 @@
+
+
+
+a:active, a:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+  }
+
 .jumbotran{
     font-family: Oswald;
     
@@ -349,7 +358,12 @@ hr{
     bottom: 30%;
     right: 10%;
     text-align: center;
+    transition: all 300ms;
+}
 
+.white-pink{
+    color: #fff;
+    transition: all 300ms;
 }
 
 .date-two{
@@ -363,7 +377,7 @@ hr{
     color: #fff;
 }
 
-.short-details-two:hover, .date-two:hover, .author-cata-two:hover{
+.short-details-two:hover, .date-two:hover, .author-cata-two:hover, .white-pink:hover{
     color: #ff727f;
 }
 
@@ -371,7 +385,7 @@ hr{
 
 
 /*---------------------------cata-two-end----------------------*/
-
+/*----------cata-three-nest-one------------------------------------*/
 .nest-flex-one{
     overflow: hidden;
     position: relative;
@@ -388,10 +402,29 @@ hr{
 }
 
 
-.nest-flex-one-b:hover{
+.nest-flex-one:hover .nest-flex-one-b{
     transform: scale(1.2);
 }
 
+.short-details-nest-one{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    transition: all 300ms;
+    height: 100px;
+    width: 90%;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+}
+
+.short-details-nest-one:hover{
+    color:  #ff727f;;
+}
+
+/*--------------------cata-three-nest-one-end---------------------------------*/
+/*--------------------cata-three-nest-two-------------------------------------*/
 .nest-flex-two{
     overflow: hidden;
     position: relative;
@@ -407,31 +440,98 @@ hr{
     transition: all 300ms;
 }
 
-.nest-flex-two-b:hover{
+.nest-flex-two:hover .nest-flex-two-b{
     transform: scale(1.2);
 }
 
+.short-details-nest-two{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    transition: all 300ms;
+    height: 100px;
+    width: 90%;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+}
+
+.short-details-nest-two:hover{
+    color:  #ff727f;;
+}
+
+/*----------------------cata-three-nest-two-end------------------------------------*/
+/*----------------------cata-four------------------------------------------------------*/
 .cata-four{
     overflow: hidden;
     position: relative;
+    border: 10px solid #ff727f;
 }
 
 .cata-four-b{
     width: 100%;
     height: 100%;
     transition: all 300ms;
-    background-image: url(../Images/freelancing.jpg);
+    background-image: url(../Images/freelancing3-1.jpg);
     background-size: cover;
     background-position: center;
+ 
 }
 
-.cata-four-b:hover{
+.cata-four:hover .cata-four-b{
     transform: scale(1.2);
 }
 
+.short-details-four{
+    /* position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    transition: all 300ms;
+    background-color: #fff;
+    color: black;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+    text-align: center; */
+    color:black;
+    background: rgb(253, 253, 253);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    padding: 40px;
+    padding-top: 30px;
+    padding-left: 0px;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+    height: 80%;
+    transition: all 300ms;
+}
+
+.trending{
+    width: 80px;
+    background-color: rgb(22, 21, 56);
+    color: white;
+    font-family: Oswald,sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   z-index: 2;
+}
+
+.hover-pink{
+    transition: all 300ms;
+}
+
+.hover-pink:hover{
+    color:  #ff727f;
+}
+
+/*----------------------cata-four-end--------------------------------------*/
+/*------------------------cata-five----------------------------------------*/
 .cata-five{
     overflow: hidden;
     position: relative;
+    border:7px solid #b9be7e;
 }
 
 .cata-five-b{
@@ -443,13 +543,32 @@ hr{
     background-position: center;
 }
 
-.cata-five-b:hover{
+.cata-five:hover .cata-five-b{
     transform: scale(1.2);
 }
 
+.short-details-five{
+    position: absolute;
+    width: 80%;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+    height: auto;
+    transition: all 300ms;
+    color: #fff;
+    bottom: 0;
+    right: 10%;
+    text-align: left;
+}
+
+.short-details-five:hover{
+    color:#ff727f;
+}
+
+/*----------------------cata-five-end-------------------------------------*/
+/*-----------------------cata-six-----------------------------------------*/
 .cata-six{
     overflow: hidden;
     position: relative;
+    border:7px solid #b9be7e;
 }
 
 
@@ -462,10 +581,27 @@ hr{
     background-position: center;
 }
 
-.cata-six-b:hover{
+.cata-six:hover .cata-six-b{
     transform: scale(1.2);
 }
 
+.short-details-six{
+    position: absolute;
+    width: 80%;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+    height: auto;
+    transition: all 300ms;
+    color: #fff;
+    bottom: 0;
+    right: 10%;
+    text-align: left;
+}
+
+/* .short-details-six:hover{
+    color:#ff727f;
+} */
+/*--------------------------cata-six-end-------------------------------*/
+/*------------------------------cata-seven-------------------------------*/
 .cata-seven{
     overflow: hidden;
     position: relative;
@@ -481,10 +617,41 @@ hr{
     background-position: bottom;
 }
 
-.cata-seven-b:hover{
+.cata-seven:hover .cata-seven-b{
     transform: scale(1.2);
 }
 
+
+.short-details-seven{
+    color:black;
+    background: rgb(253, 253, 253);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    padding: 40px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+    height: 190px;
+    transition: all 300ms;
+}
+
+.cata-seven-t{
+    color:#ff727f;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.cata-seven-d{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+
+/*------------------------------cata-seven-end------------------------------*/
+/*-------------------------------cata-nest-flex-three----------------------*/
 .nest-flex-three{
     overflow: hidden;
     position: relative; 
@@ -499,9 +666,26 @@ hr{
     background-position: center;
 }
 
-.nest-flex-three-b:hover{
+.nest-flex-three:hover .nest-flex-three-b{
     transform: scale(1.2);
 }
+
+.short-details-nest-flex-three{
+    color:black;
+    background: rgb(253, 253, 253);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    padding: 40px;
+    padding-top: 30px;
+    padding-left: 0px;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+    height: 80%;
+    transition: all 300ms;
+}
+
+/*------------------------------cata-nest-flex-three-end------------------------------*/
 
 .nest-flex-four{
     overflow: hidden;
@@ -512,13 +696,28 @@ hr{
     width: 100%;
     height: 100%;
     transition: all 300ms;
-    background-image: url(../Images/self.jpg);
+    background-image: url(../Images/self2.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 .nest-flex-four-b:hover{
     transform: scale(1.2);
+}
+
+.short-details-nest-flex-four{
+    color:black;
+    background: rgb(253, 253, 253);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    padding: 40px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+    height: 80%;
+    transition: all 300ms;
 }
 /* navigation start from here*/
 
