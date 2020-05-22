@@ -228,6 +228,298 @@ i:hover{
     
 }
 
+.colln{
+    width: auto;
+    font-size: 56px;
+    font-family: oswald, Arial, Helvetica, sans-serif;
+    height: 100px;
+    margin-left: 50px;
+    
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 250px;
+}
+
+
+
+
+.cata-one{
+    overflow: hidden;
+    position: relative;
+    
+}
+.cata-one-b{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/kimzy-nanney-LNDgBERq8Q0-unsplash.jpg);
+    background-size: cover;
+    background-position: right;
+    transition: all 300ms;
+    position: relative;
+}
+
+.cata-one:hover .cata-one-b{
+    transform: scale(1.2);
+}
+
+.short-details{
+    color:black;
+    background: rgb(253, 253, 253);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    padding: 40px;
+    padding-top: 30px;
+    padding-left: 0px;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+    height: 200px;
+    transition: all 300ms;
+}
+
+
+.new-post{
+    width: 80px;
+    background-color: rgb(119, 98, 5);
+    color: white;
+    font-family: Oswald,sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   
+}
+
+.title-name{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    transition: all 300ms linear 0s;
+}
+
+.cata-d{
+    margin-top: 15px;
+    margin-left: 40px;
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    transition: all 300ms linear 0s;
+
+}
+
+.date{
+    color: gray; 
+    margin-left: 40PX;
+    transition: all 300ms;
+}
+
+.title-name:hover, .cata-d:hover, .date:hover{
+    color:#ff727f;
+}
+
+/*-----------cata-two----------------------------*/
+
+.cata-two{
+    overflow: hidden;
+    position: relative;
+}
+
+.cata-two-b{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 300ms;
+}
+
+.cata-two:hover .cata-two-b{
+    transform: scale(1.2);
+}
+
+.short-details-two{
+    position: absolute;
+    width: 80%;
+    font-family: josefin sans,Arial, Helvetica, sans-serif;
+    height: 200px;
+    transition: all 300ms;
+    color: #fff;
+    bottom: 30%;
+    right: 10%;
+    text-align: center;
+
+}
+
+.date-two{
+    color: white;
+    font-size: 14px;
+    transition: all 300ms;
+}
+
+.author-cata-two{
+    transition: all 300ms;
+    color: #fff;
+}
+
+.short-details-two:hover, .date-two:hover, .author-cata-two:hover{
+    color: #ff727f;
+}
+
+
+
+
+/*---------------------------cata-two-end----------------------*/
+
+.nest-flex-one{
+    overflow: hidden;
+    position: relative;
+}
+
+.nest-flex-one-b{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/light-london-adverts-piccadilly-circus-34639.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 300ms;
+
+}
+
+
+.nest-flex-one-b:hover{
+    transform: scale(1.2);
+}
+
+.nest-flex-two{
+    overflow: hidden;
+    position: relative;
+}
+
+
+.nest-flex-two-b{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/man-in.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 300ms;
+}
+
+.nest-flex-two-b:hover{
+    transform: scale(1.2);
+}
+
+.cata-four{
+    overflow: hidden;
+    position: relative;
+}
+
+.cata-four-b{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+    background-image: url(../Images/freelancing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cata-four-b:hover{
+    transform: scale(1.2);
+}
+
+.cata-five{
+    overflow: hidden;
+    position: relative;
+}
+
+.cata-five-b{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+    background-image: url(../Images/exercise.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cata-five-b:hover{
+    transform: scale(1.2);
+}
+
+.cata-six{
+    overflow: hidden;
+    position: relative;
+}
+
+
+.cata-six-b{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+    background-image: url(../Images/sports.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cata-six-b:hover{
+    transform: scale(1.2);
+}
+
+.cata-seven{
+    overflow: hidden;
+    position: relative;
+}
+
+
+.cata-seven-b{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+    background-image: url(../Images/meditation-flow.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.cata-seven-b:hover{
+    transform: scale(1.2);
+}
+
+.nest-flex-three{
+    overflow: hidden;
+    position: relative; 
+}
+
+.nest-flex-three-b{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+    background-image: url(../Images/travel1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nest-flex-three-b:hover{
+    transform: scale(1.2);
+}
+
+.nest-flex-four{
+    overflow: hidden;
+    position: relative; 
+}
+
+.nest-flex-four-b{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+    background-image: url(../Images/self.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nest-flex-four-b:hover{
+    transform: scale(1.2);
+}
 /* navigation start from here*/
 
 
