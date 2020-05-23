@@ -701,7 +701,7 @@ hr{
     background-position: bottom;
 }
 
-.nest-flex-four-b:hover{
+.nest-flex-four:hover .nest-flex-four-b{
     transform: scale(1.2);
 }
 
@@ -719,6 +719,155 @@ hr{
     height: 80%;
     transition: all 300ms;
 }
+
+
+/*---------------subs-------------------------------------*/
+#subs{
+    text-align: center;
+    font-size: 45px;
+    font-family: Montserrat,Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.email-input{
+    height: 60px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #f7f7f7;
+    padding-left: 40px;
+    font-style: italic;
+    border-color: rgba(255,255,255,0.01);
+    transition: 0.3s all ease-in-out;
+    color: #8d8d8d;
+    font-size: 16px;
+}
+
+.email-input:hover{
+    background-color: #f1f1f1;
+}
+
+.send-btn{
+    padding: 20px 40px;
+    background-color: #007aff;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 800;
+    border: none;
+    font-size: 14px;
+    height: 60px;
+    transition: .25s all ease-in-out;
+}
+
+.send-btn:hover{
+    background-color: #6dacf0; 
+    cursor: pointer;
+
+}
+/*----------------subs end------------------------------------------*/
+
+/*----------------------------quote-start------------------------------------*/
+/* .time-q{
+    width: 30%;
+    height: auto;
+    margin: 40px;
+    float: left;
+    border: 10px solid  rgb(165, 24, 24);
+} */
+
+/* .quote{
+    margin-top: 170px;
+    width: 100%;
+    height: 220px;
+    font-size: 80px;
+    /* background-color: rgb(165, 24, 24); */
+    /* color: white;
+    background-color: lightgray;
+    font-family: Montserrat,Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 40px;
+}
+ */ 
+
+/*----------------------------quote-end---------------------------------------*/
+
+/*---------------------------------gallery----------------------*/
+
+
+.img-gal{
+    padding-top: 100px;
+}
+.gal{
+    width: 16.8%;
+    height: 200px;
+}
+/*--------------------------------gallery end----------------------------------*/
+/*-----------------------------------footer---------------------------------*/
+.t-top{
+    margin-top: 80px;
+    margin-left: 40px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 150px;
+
+}
+
+.fa-arrow-up{
+    margin-right: 10px;
+}
+
+.news-l{
+    width: 30%;
+    text-align:left;
+    margin-top:50px;
+    padding: 40px;
+    padding-top: 0px;
+
+}
+
+.contact{
+    width: 20%;
+    text-align:left;
+    margin-top:50px;
+    padding-left: 30px;
+    font-weight: 200;
+    
+}
+
+.cata{
+    width: 20%;
+    text-align:center;
+    margin-top:50px;
+
+}
+
+.foot-follow{
+    width: 20%;
+    text-align:center;
+    margin-top:50px;
+
+}
+
+.foot-subs{
+    width: 70%;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.btn-subs-foot{
+    width: 15%;
+    border: none;
+    font-size: 18px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: tomato;
+}
+
+
+
+/*------------------------------------footer-ended--------------------------------*/
 /* navigation start from here*/
 
 

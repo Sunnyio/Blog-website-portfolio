@@ -10,13 +10,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"> 
     <title>Welcome</title>
 </head>
 <body>
     <div>
        <!--adding top navigation for social media links-->
        <header>
-           <div class="strip">
+           <div class="strip" id="t-top">
             
 
            </div>
@@ -46,7 +48,7 @@
         <div id="flexbox-one">
 
           <!--recent post one-->
-            <div class="recent-post" style="margin-top: 20px;">
+            <div class="recent-post" style="margin-top: 20px;" id="recent">
                 <p class="recent">Recent</p>
                 <div class="rct-post-t">
                     <h2 style="font-weight:400;margin-bottom: 5px;">TITLE HEADING</h2>
@@ -89,7 +91,7 @@
             </div>
         </div>
         <!--adding sidebar-->
-        <div id="flexbox-two">
+        <div class="flexbox-two" id="abou">
             <div id="myname">
                 <div id="myname-img">
 
@@ -100,7 +102,7 @@
                 </div>
 
             </div>
-            <div id="PopPost">
+            <div class="PopPost" id="popu">
                 <div class="pop-post-t">
                    Popular Posts
                 </div>
@@ -158,7 +160,7 @@
         <p style="margin: 0px;">Catagories</p><hr style="margin: 0px;">
     </div>
     <!--catagories-->
-    <div class="container-two">
+    <div class="container-two" id="catag">
         <div class="flexbox-three">
             <div class="cata-one">
                <div class="cata-one-b">
@@ -264,16 +266,46 @@
         </div>
     </div>
     <div class="subs-pallete" id="subs">
-
+       <p><span style="font-family: playfair display;">Subscribe</span><span style="font-family: Montserrat;">&nbspto get<br>my latest updates</span></p>
+       <input type="text" placeholder="Please enter your email.." class="email-input">
+       <button class="send-btn">SEND</button>
     </div>
-    <div class="inspiration">
+    <!-- <div class="inspiration">
+        <img src="Images/q2.jpg" class="time-q">
+        <div class="quote">Life Is Short Do The Stuff <strong>That Matters.</strong></div>
 
-    </div>
+    </div> -->
     <div class="img-gal">
+       <img src="Images/gal1.jpg" class="gal">
+       <img src="Images/gal6.jpg" class="gal">
+       <img src="Images/gal8.jpg" class="gal">
+       <img src="Images/gal7.jpg" class="gal">
+       <img src="Images/gal10.jpg" class="gal">
+       <img src="Images/gal9.jpg" class="gal">
 
     </div>
     <footer class="footer">
-
+        <div><a  href="#t-top"><button class="t-top"><i class="fas fa-arrow-up"></i>To the top</button></a></div>
+        <div class="contact"><h2>Contact info</h2>
+        <h4>Address :Your address goes here, your demo address.</h4>
+        <h4>Phone no:- 9586568695</h4>
+        <h4>Email:-sunny547113@gmail.com.</h4></div>
+        <div class="cata"><h2>Important links</h2>
+        <a href="#recent"><h4>Recent-post</h4></a>
+        <a href="#catag"><h4>Catagories</h4></a>
+        <a href="#popu"><h4>Popular Post</h4></a>
+        <a href="#abou"><h4>About Me</h4></div></a>
+        <div class="foot-follow"><h2>Follow Us</h2>
+             <h4><a href="#a">Facebook</a></h4>
+             <h4><a href="#a">Twitter</a></h4>
+             <h4><a href="#a">Instagram</a></h4>
+             <h4><a href="#a">Linkdin</a></h4>
+        </div>
+        <div class="news-l"><h2>Newsletter</h2>
+            <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days open</p>
+            <input type="email" class="foot-subs">
+             <button class="btn-subs-foot"><i class="fas fa-paper-plane"></i></button>
+        </div>
     </footer>
 </body>
 </html>
